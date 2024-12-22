@@ -22,7 +22,7 @@ class TimerManager: ObservableObject {
             self.timeLeft -= 1
             
             if self.timeLeft == 0 {
-                self.timer?.invalidate()
+                self.stopTimer()
             }
         }
     }
