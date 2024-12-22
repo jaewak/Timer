@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct TimerApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra ("Timer", systemImage: "timer") {
             ContentView()
         }
     }
